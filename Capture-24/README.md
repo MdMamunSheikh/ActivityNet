@@ -1,10 +1,8 @@
-ActivityNet
-==============================
+# ActivityNet
 
 ActivityNet is a generalized activity recognition pipeline that uses different modalities of data for better performance using existing architecture.
 
-Project Organization
-------------
+## Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
@@ -39,4 +37,3 @@ Project Organization
     │   │   │                 predictions
     │   │   ├── predict_model.py
     │   │   └── train_model.py
-
