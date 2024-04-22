@@ -8,3 +8,5 @@ if __name__ == "__main__":
   parser.add_argument('--win_size', '-w', type=float, default=10, help='Define window size for each segment.')
   parser.add_argument('--FS', '-f', type=int, default=100, help='Define sampling frequency')
   parser.add_argument('--n_jobs', type=int, default=4, help='Number of jobs to load data')
+  
+  args = parser.parse_args()
