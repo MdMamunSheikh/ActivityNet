@@ -17,7 +17,6 @@ def main(args):
 def getMET(annotation: str)-> float: # returns MET score from the annotation text
   pattern = re.compile(r'MET\s+(\d+\.\d+)') # Pattern 'MET 1.5'
   return float(re.findall(pattern, annotation)[0]) # return MET score 1.5
-
 def getPID(fname: str)-> str: # returns PID  from a filepath i.e., 'P100'
   f = os.path.basename(fname) # extract file name from path
   return re.compile(r'(P\d{3})').findall(f)[0] # return PID 'P100'
