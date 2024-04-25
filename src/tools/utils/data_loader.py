@@ -5,7 +5,6 @@ import os, re, sys
 from joblib import Parallel, delayed
 from glob import glob
 from tqdm.notebook import tqdm
-from numba import jit
 
 LABELING_STANDARD = ['label:WillettsSpecific2018']
 ANN_PATH = 'annotation-label-dictionary.csv'
